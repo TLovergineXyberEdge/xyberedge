@@ -14,6 +14,9 @@ const MiniTextFourty = styled.p`
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const TextFourty = styled.p`
@@ -21,6 +24,9 @@ const TextFourty = styled.p`
   font-weight: 400;
   font-size: 39px;
   line-height: 44px;
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 export { FourtyContainer, MiniTextFourty, TextFourty };

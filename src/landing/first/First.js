@@ -29,7 +29,7 @@ const First = () => {
       </BoxText>
       <img
         src={Logo}
-        height={"800px!important"}
+        height={"500px!important"}
         style={{ marginTop: "-6rem" }}
         alt="logo"
       />

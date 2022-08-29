@@ -4,6 +4,9 @@ const ContainerThird = styled.div`
   width: 100%;
   height: 900px;
   padding: 3rem;
+  @media screen and (max-width: 768px) {
+    height: 1700px;
+  }
 `;
 
 const MiniTextThird = styled.p`
@@ -11,6 +14,9 @@ const MiniTextThird = styled.p`
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const SecondTextThird = styled.p`
@@ -18,6 +24,9 @@ const SecondTextThird = styled.p`
   font-weight: 400;
   font-size: 33px;
   line-height: 39px;
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 const TitleThird = styled.p`
@@ -26,6 +35,10 @@ const TitleThird = styled.p`
   line-height: 30px;
 
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: 35px;
+    line-height: 35px;
+  }
 `;
 
 const SpanWhite = styled.span`
@@ -41,6 +54,9 @@ const TextParagrafo = styled.p`
   text-align: right;
 
   color: #ffffff;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 export {
   ContainerThird,

@@ -10,6 +10,12 @@ const ContainerStats = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    max-width: 100%;
+    height: 800px;
+    align-items: center;
+  }
 `;
 const ContainerSingleStat = styled.div`
   margin-top: -2rem;
@@ -29,6 +35,9 @@ const TextStats = styled.p`
   color: white;
   font-weight: 400;
   font-size: 24px;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 export { ContainerStats, ContainerSingleStat, TextStats, TitleStats };

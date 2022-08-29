@@ -6,7 +6,7 @@ const HeaderStyle = styled.div`
   flex-direction: row;
   position: relative;
   height: 55px;
-  width: 100%;
+  max-width: 100%;
   background-color: #190d3b;
   justify-content: space-between;
 `;
