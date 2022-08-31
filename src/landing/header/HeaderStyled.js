@@ -8,7 +8,9 @@ const HeaderStyle = styled.div`
   height: 55px;
   max-width: 100%;
   background-color: #190d3b;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 `;
 
 const TitleHeader = styled.p`

@@ -6,11 +6,15 @@ import {
   ContentText,
   ButtonSeeHow,
 } from "./FirstStyled";
+import { useMediaQuery } from "react-responsive";
 
 import { calendyFunction } from "../../shared/calendy";
 import Logo from "../../media/logo.png";
 
 const First = () => {
+  const isMobile = useMediaQuery({
+    query: "(max-width: 768px)",
+  });
   return (
     <ContainerFirst>
       <BoxText>
@@ -29,8 +33,10 @@ const First = () => {
       </BoxText>
       <img
         src={Logo}
-        height={"500px!important"}
-        style={{ marginTop: "-6rem" }}
+        style={{
+          marginTop: isMobile ? "" : "-6rem",
+          maxHeight: isMobile ? "300px" : "800px",
+        }}
         alt="logo"
       />
       <ButtonSeeHow onClick={() => calendyFunction()}>See how</ButtonSeeHow>

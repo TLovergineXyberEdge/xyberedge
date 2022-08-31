@@ -12,7 +12,7 @@ const Header = () => {
       <img
         src={title}
         alt="title"
-        style={{ position: "absolute", left: "40%", top: "0.5rem" }}
+        //style={{ position: "absolute", left: "40%", top: "0.5rem" }}
       />
       <MenuContainer style={{ display: "none" }}>
         <TitleHeader>Contact Us</TitleHeader>
